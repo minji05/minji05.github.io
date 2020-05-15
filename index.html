@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v3.8.6">
+        <title>Album example · Bootstrap</title>
+        <link href="https://getbootstrap.com/docs/4.4/examples/album/" rel="canonical">
+        <link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh">
+        <link href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+        <link href="/docs/4.4/assets/img/favicons/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+        <link href="/docs/4.4/assets/img/favicons/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+        <link href="/docs/4.4/assets/img/favicons/manifest.json" rel="manifest">
+        <link href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" rel="mask-icon" color="#563d7c">
+        <link href="/docs/4.4/assets/img/favicons/favicon.ico" rel="icon">
+        <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#563d7c">
+        <style>
+              .nav {
+                height: 70px;
+                border-bottom: 1px solid rgb(59, 0, 77);
+                display: flex;
+                align-items: center;
+                background-color: rgb(255, 220, 190);
+            }
+
+            .nav-right-items {
+                display: flex;
+                margin-left: auto;
+            }
+
+            .nav-item {
+                margin-left: 10px;
+            }
+            .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+      
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            
+            .text-white {
+                font-size: 30px;
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+                text-align: center;
+            }
+            .main {
+                width: 1000px;
+                margin: 0 auto;
+                margin-top: 30px;
+                background-color: rgb(59, 0, 77);
+            }
+            .text-muted {
+                font-size: 20px;
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+                text-align: center;
+            }
+            .container {
+                font-size: 20px;
+                font-weight: bold;
+                color: rgb(59, 0, 77);
+                text-align: center;
+
+            }
+            .card-body {
+                width: 300px;
+                height: 200px;
+                border: 1px solid black;
+                border-radius: 4px;
+                font-size: 1rem;
+                padding: 50px;
+                background-color:rgb(59, 0, 77);
+                align-items: center;
+            }
+            .card-text {
+                font-size: 15px;
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+                text-align: center;
+
+            }
+       
+    
+            }
+          </style>
+          <link href="album.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="nav-right-items">
+              <div class="nav-item">menu1</div>
+              <div class="nav-item">menu2</div>
+              <div class="nav-item">menu3</div>  
+            </div>
+          </div>
+        <header>
+      <div class="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Welcome to my page</h4>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+
+              <ul class="list-unstyled">
+                <li><a class="text-muted">Likelion 8</a></li>
+                <li><a class="text-muted">software convergence</a></li>
+                <li><a class="text-muted">2019110210</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <main role="main">
+    
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1>My memories </h1>
+        </div>
+      </section>
+    
+      <div class="album py-5 bg-light">
+        <div class="container">
+    
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src= "A.jpg" width="400" height="300"/>
+               
+                <div class="card-body">
+                  <p class="card-text">It is the first day of the new year. 
+                    We had a year-end party together.
+                    And there was some alcohol and balloons.
+                    We played together all night long.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button class="btn btn-sm btn-outline-secondary" type="button">Like</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button">script</button>
+                    </div>
+                    <small class="text-muted">2020.01.01</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg class="bi bi-chevron-double-down" width="5em" height="5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 01.708 0L8 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 01.708 0L8 8.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+              </svg>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src= "B.jpg" width="300" height="300"/>
+                <div class="card-body">
+                  <p class="card-text">I met the friends in the picture at Barom. We are different majors, but we really go well together.I went to Lotte World on this day.And we rode the rides without a break.It's just destiny. </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button class="btn btn-sm btn-outline-secondary" type="button">Like</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button">script</button>
+                    </div>
+                    <small class="text-muted">2019.11.01</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg class="bi bi-chevron-double-down" width="5em" height="5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 01.708 0L8 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 01.708 0L8 8.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+              </svg>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src= "C.jpg" width="300" height="300"/>
+                <div class="card-body">
+                  <p class="card-text">This day is Halloween.I went to Itaewon wearing makeup for the first time.It was the first pleasure I've ever had.Next time, I will dress up as a costume.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button class="btn btn-sm btn-outline-secondary" type="button">Like</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button">script</button>
+                    </div>
+                    <small class="text-muted">2019.10.27</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg class="bi bi-chevron-double-down" width="5em" height="5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 01.708 0L8 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 01.708 0L8 8.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+              </svg>
+    
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src= "D.jpg" width="350" height="300"/>
+                <div class="card-body">
+                  <p class="card-text">I came to Busan with my high school friend.On this day, I was doused with water.And I'm so drunk with music.I want to go there again.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button class="btn btn-sm btn-outline-secondary" type="button">Like</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button">script</button>
+                    </div>
+                    <small class="text-muted">2019.07.13</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg class="bi bi-chevron-double-down" width="5em" height="5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 01.708 0L8 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 01.708 0L8 8.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+              </svg>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src= "E.jpg" width="350" height="300"/>
+                <div class="card-body">
+                  <p class="card-text">After coming to Seoul, I went to Han River with my colleagues for the first time.This day was special to me because it was my first time doing anything.with Ramen, chicken, alcohol...</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button class="btn btn-sm btn-outline-secondary" type="button">Like</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button">script</button>
+                    </div>
+                    <small class="text-muted">2019.04.04</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg class="bi bi-chevron-double-down" width="5em" height="5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 01.708 0L8 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 01.708 0L8 8.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+              </svg>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src= "F.jpg" width="400" height="300"/>
+                <div class="card-body">
+                  <p class="card-text">I went to Gyeongbokgung Palace with a Chinese friend.I walked around Gyeongbokgung Palace wearing hanbok.It was a special day for me and my Chinese friend.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button class="btn btn-sm btn-outline-secondary" type="button">Like</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button">script</button>
+                    </div>
+                    <small class="text-muted">2019.09.21</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg class="bi bi-chevron-double-down" width="5em" height="5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 01.708 0L8 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 01.708 0L8 8.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
+              </svg>
+    
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src= "q.jpg" width="350" height="300"/>
+                <div class="card-body">
+                  <p class="card-text">What kind of person do you think I am?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button class="btn btn-sm btn-outline-secondary" type="button">Like</button>
+                      <button class="btn btn-sm btn-outline-secondary" type="button">script</button>
+                    </div>
+                    <small class="text-muted">It's me</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+           
+    </main>
+    
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>my e-mail: smj95133@likelion.org!</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"></script>
+          <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"></script>
+    
+    </body>
+</html>
